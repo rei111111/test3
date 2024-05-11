@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <StackPane prefHeight="600.0" prefWidth="604.0" AnchorPane.bottomAnchor="10.0" AnchorPane.topAnchor="10.0" />
+      <HBox alignment="CENTER" layoutY="1.0" prefHeight="600.0" prefWidth="604.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox alignment="CENTER_LEFT" prefHeight="200.0">
+               <children>
+                  <Button mnemonicParsing="false" text="Button" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefWidth="100.0">
+               <children>
+                  <StackPane maxHeight="1.7976931348623157E308" maxWidth="-Infinity" prefHeight="600.0" prefWidth="372.0" style="-fx-background-color: white;">
+                     <children>
+                        <ScrollPane fitToHeight="true" maxHeight="1.7976931348623157E308" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="500.0" style="-fx-background-color: white;" vbarPolicy="ALWAYS">
+                           <content>
+                              <VBox maxHeight="1.7976931348623157E308" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="598.0" prefWidth="484.0" style="-fx-background-color: #FF876D;">
+                                 <children>
+                                    <HBox alignment="CENTER_LEFT" maxHeight="1.7976931348623157E308" maxWidth="-Infinity" prefHeight="71.0" prefWidth="484.0" style="-fx-background-color: #FF876D;">
+                                       <children>
+                                          <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="150.0" style="-fx-background-color: #FF6E4F;" text="Add ingredients" textFill="WHITE" translateX="10.0">
+                                             <font>
+                                                <Font name="Lucida Bright" size="16.0" />
+                                             </font>
+                                          </Button>
+                                          <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="166.0" style="-fx-background-color: #FF6E4F;" text="Edit ingredients" textFill="WHITE" translateX="20.0">
+                                             <font>
+                                                <Font name="Lucida Bright" size="16.0" />
+                                             </font>
+                                          </Button>
+                                          <Button cache="true" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="37.0" prefWidth="125.0" style="-fx-background-color: #FF6E4F;" text="Empty Fridge" textFill="WHITE" translateX="35.0">
+                                             <font>
+                                                <Font name="Lucida Bright" size="16.0" />
+                                             </font>
+                                          </Button>
+                                       </children>
+                                    </HBox>
+                                    <ListView maxHeight="1.7976931348623157E308" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="539.0" prefWidth="484.0" style="-fx-background-color: #FF876D;" VBox.vgrow="ALWAYS" />
+                                 </children>
+                              </VBox>
+                           </content>
+                        </ScrollPane>
+                     </children>
+                  </StackPane>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER_RIGHT" prefHeight="290.0" prefWidth="0.0">
+               <children>
+                  <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="48.0" text="Button" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
